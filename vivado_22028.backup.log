@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Mar 29 23:08:57 2025
+# Process ID         : 22028
+# Current directory  : C:/FPGAProject/new_clock
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21428 C:\FPGAProject\new_clock\new_clock.xpr
+# Log file           : C:/FPGAProject/new_clock/vivado.log
+# Journal file       : C:/FPGAProject/new_clock\vivado.jou
+# Running On         : LAPTOP-68NQA9TF
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 7884 MB
+# Swap memory        : 18967 MB
+# Total Virtual      : 26852 MB
+# Available Virtual  : 16325 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/FPGAProject/new_clock/new_clock.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/FPGAProject/new_clock/new_clock.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1211.172 ; gain = 112.801
+update_compile_order -fileset sources_1
+close_project
+open_project C:/FPGAProject/UART/UART.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/FPGAProject/UART/UART.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FPGAProject/UART/UART.srcs/utils_1/imports/synth_1/UART.dcp with file C:/FPGAProject/UART/UART.runs/synth_1/UART.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sat Mar 29 23:47:05 2025] Launched synth_1...
+Run output will be captured here: C:/FPGAProject/UART/UART.runs/synth_1/runme.log
+[Sat Mar 29 23:47:05 2025] Launched impl_1...
+Run output will be captured here: C:/FPGAProject/UART/UART.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1419.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1507.352 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2001.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2001.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2338.570 ; gain = 1089.676
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.2
+  **** Build date : Oct 29 2024 at 10:25:41
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 30 2024-23:49:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2391.758 ; gain = 3.469
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/8872352304CBA
+set_property PROGRAM.FILE {C:/FPGAProject/UART/UART.runs/impl_1/UART.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+INFO: [Labtools 27-1434] Device xc7s50 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/FPGAProject/UART/UART.runs/impl_1/UART.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+INFO: [Labtools 27-1434] Device xc7s50 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/8872352304CBA
+open_project C:/FPGAProject/scrollingDisplay/scrollingDisplay.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/FPGAProject/scrollingDisplay/scrollingDisplay.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2024.2/data/ip'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\clock_divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\scrollingDisplay\scrollingDisplay.srcs\sources_1\new\scrollingDisplay.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\scrollingDisplay\scrollingDisplay.srcs\sources_1\new\scrollingDisplay.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\scrollingDisplay\scrollingDisplay.srcs\sources_1\new\scrollingDisplay.v:]
+current_project UART
+close_hw_manager
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FPGAProject/UART/UART.srcs/utils_1/imports/synth_1/UART.dcp with file C:/FPGAProject/UART/UART.runs/synth_1/UART.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sun Mar 30 00:39:00 2025] Launched synth_1...
+Run output will be captured here: C:/FPGAProject/UART/UART.runs/synth_1/runme.log
+[Sun Mar 30 00:39:00 2025] Launched impl_1...
+Run output will be captured here: C:/FPGAProject/UART/UART.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\clock_divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\scrollingDisplay\scrollingDisplay.srcs\sources_1\new\scrollingDisplay.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\clock_divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\clock_divider.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\UART.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\assci_decoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\sevensegementcontroller1334\sevensegementcontroller1334.srcs\sources_1\new\sevendecoder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\FPGAProject\UART\UART.srcs\sources_1\new\uart_rx.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.2
+  **** Build date : Oct 29 2024 at 10:25:41
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 30 2024-23:49:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2442.312 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/8872352304CBA
+set_property PROGRAM.FILE {C:/FPGAProject/UART/UART.runs/impl_1/UART.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+INFO: [Labtools 27-1434] Device xc7s50 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/FPGAProject/UART/UART.runs/impl_1/UART.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+INFO: [Labtools 27-1434] Device xc7s50 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/8872352304CBA
+close_project
